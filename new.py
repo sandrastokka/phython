@@ -10,3 +10,5 @@ myConstPi = 3.14
 
 print("the circumference of a circle is :", 2*myConstPi*radius)
 
+if (radius < 0):
+    print ("The radius of a circle cannot be a negative number")
