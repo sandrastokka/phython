@@ -1,4 +1,9 @@
-myList = [1, 2, 3, 5, 8, 21]
+import turtle
+
+myTurtle = turtle.Turtle()
+#mySecondTurtle = turtle.Turtle()
+
+myList = [1, 2, 3, 5, 8, 21, 29, 50, 79, 129, 208, 337, 545]
 
 print(myList)
 print(myList[0])
@@ -23,4 +28,13 @@ def addMyList():
         print ("The sum of myList is", sumOfList)
 
 addMyList()
+
+def usingTurtleWithLists():
+    for i in range(0, len(myList)):
+        myTurtle.forward(myList[i])
+        myTurtle.right(90)
+
+usingTurtleWithLists()
+turtle.done()
+
 
