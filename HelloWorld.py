@@ -1,7 +1,14 @@
-print("Hello World ;)")
+import turtle
 
-print(10+5)
+turtle.pendown()
 
-print("10+5")
+# i = 0
+# while i <= 5:
 
-print (10 / 3)
+for i in range(5):
+    turtle.forward(100)
+    turtle.left(180)
+    turtle.left(36)
+
+
+turtle.done()
