@@ -1,0 +1,12 @@
+# 2) Write a Python function to multiply all the items in a list.
+
+import numpy as np
+
+temperatureThisWeek  = [1, 2, 4, 1, 1, 3, 2]
+
+def summingupalist():
+    result = np.prod(temperatureThisWeek)
+    print "the multiplied sum of this weeks temperature is", result
+
+
+summingupalist()
